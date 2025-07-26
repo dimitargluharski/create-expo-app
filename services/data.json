@@ -1,0 +1,137 @@
+[
+  {
+    "name": "Luke Harris",
+    "age": 20,
+    "nationality": "Wales",
+    "position": "Attacking Midfield",
+    "left": "Fulham",
+    "joined": "Oxford United",
+    "fee": "loan transfer"
+  },
+  {
+    "name": "Steven Benda",
+    "age": 26,
+    "nationality": "Germany",
+    "position": "Goalkeeper",
+    "left": "Fulham",
+    "joined": "Millwall",
+    "fee": "loan transfer"
+  },
+  {
+    "name": "Augustine Chidi Kwem",
+    "age": 27,
+    "nationality": "Nigeria",
+    "position": "Centre-Forward",
+    "left": "Without Club",
+    "joined": "Al-Naft SC",
+    "fee": "?"
+  },
+  {
+    "name": "Kaiky",
+    "age": 21,
+    "nationality": "Brazil",
+    "position": "Centre-Back",
+    "left": "UD Almería",
+    "joined": "Shabab Al-Ahli",
+    "fee": "?"
+  },
+  {
+    "name": "Sebastian Walukiewicz",
+    "age": 25,
+    "nationality": "Poland",
+    "position": "Centre-Back",
+    "left": "Torino",
+    "joined": "Sassuolo",
+    "fee": "Loan fee: €1.00m"
+  },
+  {
+    "name": "Luke Le Roux",
+    "age": 25,
+    "nationality": "South Africa",
+    "position": "Central Midfield",
+    "left": "Värnamo",
+    "joined": "Portsmouth",
+    "fee": "?"
+  },
+  {
+    "name": "Pau Víctor",
+    "age": 23,
+    "nationality": "Spain",
+    "position": "Centre-Forward",
+    "left": "Barcelona",
+    "joined": "SC Braga",
+    "fee": "€9.20m"
+  },
+  {
+    "name": "Oğulcan Ülgün",
+    "age": 26,
+    "nationality": "Turkey",
+    "position": "Defensive Midfield",
+    "left": "Konyaspor",
+    "joined": "Gençlerbirliği",
+    "fee": "€158k"
+  },
+  {
+    "name": "Witi",
+    "age": 28,
+    "nationality": "Mozambique",
+    "position": "Left Winger",
+    "left": "Al-Orooba",
+    "joined": "Nacional",
+    "fee": "?"
+  },
+  {
+    "name": "Daniel Rivas",
+    "age": 23,
+    "nationality": "Paraguay",
+    "position": "Left-Back",
+    "left": "Cerro Porteño",
+    "joined": "Avs FS",
+    "fee": "?"
+  },
+  {
+    "name": "Alfie Jones",
+    "age": 27,
+    "nationality": "England",
+    "position": "Centre-Back",
+    "left": "Hull City",
+    "joined": "Middlesbrough",
+    "fee": "?"
+  },
+  {
+    "name": "Juan Berrocal",
+    "age": 26,
+    "nationality": "Spain",
+    "position": "Centre-Back",
+    "left": "Getafe",
+    "joined": "Atlanta",
+    "fee": "loan transfer"
+  },
+  {
+    "name": "Pape Moussa Fall",
+    "age": 21,
+    "nationality": "Senegal",
+    "position": "Centre-Forward",
+    "left": "FC Metz",
+    "joined": "La Louvière",
+    "fee": "?"
+  },
+  {
+    "name": "Siebe Van der Heyden",
+    "age": 26,
+    "nationality": "Belgium",
+    "position": "Centre-Back",
+    "left": "RCD Mallorca",
+    "joined": "KAA Gent",
+    "fee": "€2.00m"
+  },
+  {
+    "name": "Marco Curto",
+    "age": 26,
+    "nationality": "Italy",
+    "position": "Centre-Back",
+    "left": "Como",
+    "joined": "FC Empoli",
+    "fee": "?"
+  }
+]
