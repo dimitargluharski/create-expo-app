@@ -1,45 +1,116 @@
+import CustomHeader from '@/components/CustomHeader/CustomHeader';
 import { Ionicons } from '@expo/vector-icons';
 import { Tabs } from 'expo-router';
+import { View } from 'react-native';
 
 const RootLayout = () => {
   return (
     <Tabs screenOptions={{
-      tabBarActiveTintColor: '#007AFF',
-      headerShown: true,
+      tabBarActiveTintColor: '#F88AB9',
+      tabBarInactiveTintColor: '#DBDBDB',
+      headerShown: false,
     }}>
       <Tabs.Screen
         name='index'
         options={{
-          title: 'Home',
-          tabBarIcon: ({ color, size }) => (
-            <Ionicons name="home" size={size} color={color} />
+          headerTitle: 'Home',
+          title: '',
+          headerShown: false,
+          // header: () => <CustomHeader />,
+          tabBarIcon: ({ color, size, focused }) => (
+            <>
+              <Ionicons name="home" size={size} color={color} />
+              {focused
+                ? <View
+                  style={{
+                    position: 'absolute',
+                    bottom: -6,
+                    width: 5,
+                    height: 5,
+                    borderRadius: 3,
+                    backgroundColor: '#F88AB9',
+                  }}
+                />
+                : null
+              }
+            </>
           ),
         }}
       />
       <Tabs.Screen
         name='live'
         options={{
-          title: 'Live',
-          tabBarIcon: ({ color, size }) => (
-            <Ionicons name="radio" size={size} color={color} />
+          title: '',
+          headerShown: true,
+          header: () => <CustomHeader />,
+          tabBarIcon: ({ color, size, focused }) => (
+            <>
+              <Ionicons name="radio" size={size} color={color} />
+              {focused
+                ? <View
+                  style={{
+                    position: 'absolute',
+                    bottom: -6,
+                    width: 5,
+                    height: 5,
+                    borderRadius: 3,
+                    backgroundColor: '#F88AB9',
+                  }}
+                />
+                : null
+              }
+            </>
           ),
         }}
       />
       <Tabs.Screen
         name='rumours'
         options={{
-          title: 'Rumours',
+          title: '',
+          headerShown: true,
+          header: () => <CustomHeader />,
           tabBarIcon: ({ color, size, focused }) => (
-            <Ionicons name="chatbubbles" size={size} color={color} />
+            <>
+              <Ionicons name="chatbubbles" size={size} color={color} />
+              {focused
+                ? <View
+                  style={{
+                    position: 'absolute',
+                    bottom: -6,
+                    width: 5,
+                    height: 5,
+                    borderRadius: 3,
+                    backgroundColor: '#F88AB9',
+                  }}
+                />
+                : null
+              }
+            </>
           ),
         }}
       />
       <Tabs.Screen
         name="profile"
         options={{
-          title: 'Profile',
-          tabBarIcon: ({ color, size }) => (
-            <Ionicons name="person-circle-sharp" size={size} color={color} />
+          title: '',
+          headerShown: false,
+          tabBarIcon: ({ color, size, focused }) => (
+            <>
+              <Ionicons name="person-circle-sharp" size={size} color={color} />
+              {focused
+                ? <View
+                  style={{
+                    position: 'absolute',
+                    bottom: -6,
+                    width: 5,
+                    height: 5,
+                    borderRadius: 3,
+                    backgroundColor: '#F88AB9',
+                  }}
+                />
+                : null
+              }
+            </>
           )
         }}
       />
